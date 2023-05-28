@@ -10,11 +10,12 @@ LOG_FILE_PATH = os.path.join(logs_path, LOG_FILE) #this is done to give log fold
 
 logging.basicConfig(
     filename = LOG_FILE_PATH,
-    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
+    format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",                                 
     level=logging.INFO
 
 )
 
 if __name__=='__main__':
-    print('Logging has started')
+    logging.info('Logging has started')
 
+           
