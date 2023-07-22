@@ -42,3 +42,4 @@ if __name__=="__main__":
     obj = dataIngestion()
     obj.initiate_data_ingestion()
 
+  
