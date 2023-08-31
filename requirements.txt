@@ -1,6 +1,8 @@
 pandas
 numpy
 seaborn
-sklearn
+scikit-learn
+dill
+matplotlib 
 # kiwisolver._cext
 -e .
